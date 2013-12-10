@@ -33,7 +33,7 @@ Partial Class Launcher
         Me.PremPass = New System.Windows.Forms.MaskedTextBox()
         Me.PremUser = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.PremLogin = New System.Windows.Forms.Button()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.CheckBox1 = New System.Windows.Forms.CheckBox()
         Me.Label3 = New System.Windows.Forms.Label()
@@ -42,12 +42,13 @@ Partial Class Launcher
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Label5 = New System.Windows.Forms.Label()
-        Me.PremLogin = New System.Windows.Forms.GroupBox()
+        Me.PremLoginBox = New System.Windows.Forms.GroupBox()
+        Me.RichTextBox1 = New System.Windows.Forms.RichTextBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.TabPage2.SuspendLayout()
-        Me.PremLogin.SuspendLayout()
+        Me.PremLoginBox.SuspendLayout()
         Me.SuspendLayout()
         '
         'ToolTip1
@@ -95,7 +96,7 @@ Partial Class Launcher
         Me.TabPage1.Controls.Add(Me.PremPass)
         Me.TabPage1.Controls.Add(Me.PremUser)
         Me.TabPage1.Controls.Add(Me.Label1)
-        Me.TabPage1.Controls.Add(Me.Button1)
+        Me.TabPage1.Controls.Add(Me.PremLogin)
         Me.TabPage1.Controls.Add(Me.Label2)
         Me.TabPage1.Controls.Add(Me.CheckBox1)
         Me.TabPage1.Controls.Add(Me.Button2)
@@ -120,11 +121,11 @@ Partial Class Launcher
         Me.Label1.ForeColor = System.Drawing.SystemColors.ControlDarkDark
         Me.Label1.Name = "Label1"
         '
-        'Button1
+        'PremLogin
         '
-        resources.ApplyResources(Me.Button1, "Button1")
-        Me.Button1.Name = "Button1"
-        Me.Button1.UseVisualStyleBackColor = True
+        resources.ApplyResources(Me.PremLogin, "PremLogin")
+        Me.PremLogin.Name = "PremLogin"
+        Me.PremLogin.UseVisualStyleBackColor = True
         '
         'Label2
         '
@@ -174,21 +175,28 @@ Partial Class Launcher
         resources.ApplyResources(Me.Label5, "Label5")
         Me.Label5.Name = "Label5"
         '
-        'PremLogin
+        'PremLoginBox
         '
-        Me.PremLogin.BackColor = System.Drawing.SystemColors.ButtonFace
-        Me.PremLogin.Controls.Add(Me.TabControl1)
-        Me.PremLogin.Controls.Add(Me.PictureBox1)
-        resources.ApplyResources(Me.PremLogin, "PremLogin")
-        Me.PremLogin.Name = "PremLogin"
-        Me.PremLogin.TabStop = False
+        Me.PremLoginBox.BackColor = System.Drawing.SystemColors.ButtonFace
+        Me.PremLoginBox.Controls.Add(Me.TabControl1)
+        Me.PremLoginBox.Controls.Add(Me.PictureBox1)
+        resources.ApplyResources(Me.PremLoginBox, "PremLoginBox")
+        Me.PremLoginBox.Name = "PremLoginBox"
+        Me.PremLoginBox.TabStop = False
+        '
+        'RichTextBox1
+        '
+        resources.ApplyResources(Me.RichTextBox1, "RichTextBox1")
+        Me.RichTextBox1.Name = "RichTextBox1"
+        Me.RichTextBox1.ReadOnly = True
         '
         'Launcher
         '
         resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.FrangaCraftLauncher.My.Resources.Resources.body_bg1
-        Me.Controls.Add(Me.PremLogin)
+        Me.Controls.Add(Me.RichTextBox1)
+        Me.Controls.Add(Me.PremLoginBox)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Name = "Launcher"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
@@ -197,7 +205,7 @@ Partial Class Launcher
         Me.TabPage1.PerformLayout()
         Me.TabPage2.ResumeLayout(False)
         Me.TabPage2.PerformLayout()
-        Me.PremLogin.ResumeLayout(False)
+        Me.PremLoginBox.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub
@@ -208,7 +216,7 @@ Partial Class Launcher
     Friend WithEvents PremPass As System.Windows.Forms.MaskedTextBox
     Friend WithEvents PremUser As System.Windows.Forms.TextBox
     Friend WithEvents Label1 As System.Windows.Forms.Label
-    Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents PremLogin As System.Windows.Forms.Button
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents CheckBox1 As System.Windows.Forms.CheckBox
     Friend WithEvents Button2 As System.Windows.Forms.Button
@@ -219,6 +227,7 @@ Partial Class Launcher
     Friend WithEvents Button3 As System.Windows.Forms.Button
     Friend WithEvents Label5 As System.Windows.Forms.Label
     Friend WithEvents Button4 As System.Windows.Forms.Button
-    Friend WithEvents PremLogin As System.Windows.Forms.GroupBox
+    Friend WithEvents PremLoginBox As System.Windows.Forms.GroupBox
+    Friend WithEvents RichTextBox1 As System.Windows.Forms.RichTextBox
 
 End Class

@@ -192,7 +192,7 @@
   <data name="PictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAdUAAABeCAYAAAB1uY5YAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vQAADr0BR/uQrQAAbpFJREFUeF7t3QuMfdtd2HdEjLGETIIwjgQEEtKosXsNFLANF4xdnHuLMTbEt4Q3
+        vAAADrwBlbxySQAAbpFJREFUeF7t3QuMfdtd2HdEjLGETIIwjgQEEtKosXsNFLANF4xdnHuLMTbEt4Q3
         bcqzFU4LwZGTum4CMiWkaSkxpTSQlhIeDTbgFwYbHMA1CZBacUpdN7SUCJWWUgsh9wpZqjTdnz3znbu8
         vM+ZMzP/+c8f/mdLP+291+P3Wr/HWmvvs88HnByP43E8jsfxOB7H444cx6R6PI7H8Tgex+N43KHjmFSP
         x/E4HsfjeByPO3Qck+rxOB7H43gcj+Nxh469SfWd73znJrzjHe+464Du1jHzBn71V391E8dNAppobx0z
@@ -689,7 +689,7 @@
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;PictureBox1.Parent" xml:space="preserve">
-    <value>PremLogin</value>
+    <value>PremLoginBox</value>
   </data>
   <data name="&gt;&gt;PictureBox1.ZOrder" xml:space="preserve">
     <value>1</value>
@@ -740,7 +740,7 @@
     <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;TabControl1.Parent" xml:space="preserve">
-    <value>PremLogin</value>
+    <value>PremLoginBox</value>
   </data>
   <data name="&gt;&gt;TabControl1.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -781,16 +781,16 @@
   <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;Button1.Name" xml:space="preserve">
-    <value>Button1</value>
+  <data name="&gt;&gt;PremLogin.Name" xml:space="preserve">
+    <value>PremLogin</value>
   </data>
-  <data name="&gt;&gt;Button1.Type" xml:space="preserve">
+  <data name="&gt;&gt;PremLogin.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;Button1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;PremLogin.Parent" xml:space="preserve">
     <value>TabPage1</value>
   </data>
-  <data name="&gt;&gt;Button1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;PremLogin.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
   <data name="&gt;&gt;Label2.Name" xml:space="preserve">
@@ -934,34 +934,34 @@
   <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="Button1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="PremLogin.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Right</value>
   </data>
-  <data name="Button1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="PremLogin.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="Button1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="PremLogin.Location" type="System.Drawing.Point, System.Drawing">
     <value>262, 38</value>
   </data>
-  <data name="Button1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="PremLogin.Size" type="System.Drawing.Size, System.Drawing">
     <value>134, 23</value>
   </data>
-  <data name="Button1.TabIndex" type="System.Int32, mscorlib">
+  <data name="PremLogin.TabIndex" type="System.Int32, mscorlib">
     <value>19</value>
   </data>
-  <data name="Button1.Text" xml:space="preserve">
+  <data name="PremLogin.Text" xml:space="preserve">
     <value>Login</value>
   </data>
-  <data name="&gt;&gt;Button1.Name" xml:space="preserve">
-    <value>Button1</value>
+  <data name="&gt;&gt;PremLogin.Name" xml:space="preserve">
+    <value>PremLogin</value>
   </data>
-  <data name="&gt;&gt;Button1.Type" xml:space="preserve">
+  <data name="&gt;&gt;PremLogin.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;Button1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;PremLogin.Parent" xml:space="preserve">
     <value>TabPage1</value>
   </data>
-  <data name="&gt;&gt;Button1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;PremLogin.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
   <data name="Label2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
@@ -1261,28 +1261,60 @@
   <data name="&gt;&gt;Label5.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="PremLogin.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+  <data name="PremLoginBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Bottom</value>
   </data>
-  <data name="PremLogin.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="PremLoginBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 382</value>
   </data>
-  <data name="PremLogin.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="PremLoginBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>852, 127</value>
   </data>
-  <data name="PremLogin.TabIndex" type="System.Int32, mscorlib">
+  <data name="PremLoginBox.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
-  <data name="&gt;&gt;PremLogin.Name" xml:space="preserve">
-    <value>PremLogin</value>
+  <data name="&gt;&gt;PremLoginBox.Name" xml:space="preserve">
+    <value>PremLoginBox</value>
   </data>
-  <data name="&gt;&gt;PremLogin.Type" xml:space="preserve">
+  <data name="&gt;&gt;PremLoginBox.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;PremLogin.Parent" xml:space="preserve">
+  <data name="&gt;&gt;PremLoginBox.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;PremLogin.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;PremLoginBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="RichTextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>267, 88</value>
+  </data>
+  <data name="RichTextBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>319, 190</value>
+  </data>
+  <data name="RichTextBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="RichTextBox1.Text" xml:space="preserve">
+    <value>WARNING! 
+THIS IS VERY ALPHA AND VEEERRYYY BORKEN!!! 
+IT MAY NOT WORK!
+Luckily, it can't break your Minecraft installation.
+
+Known bugs:
+- sounds not working
+
+Report any found bugs at: </value>
+  </data>
+  <data name="&gt;&gt;RichTextBox1.Name" xml:space="preserve">
+    <value>RichTextBox1</value>
+  </data>
+  <data name="&gt;&gt;RichTextBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RichTextBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;RichTextBox1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
